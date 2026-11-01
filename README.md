@@ -42,6 +42,8 @@ In this practice data:
 
 Ward 5 is the densest ward but has one of the lowest green shares (7.8%). Ward 2 has the lowest (6.0%).
 
+![Green share by ward](ward_summary_green_share.png)
+
 ## Limits
 
 - The data is made up, so the results say nothing about real wards.
@@ -52,7 +54,7 @@ Ward 5 is the densest ward but has one of the lowest green shares (7.8%). Ward 2
 ## How to run
 
 ```
-pip install pandas matplotlib
+pip install -r requirements.txt
 python ward_summary.py
 ```
 
@@ -61,6 +63,8 @@ The script prints the ward table and summary, and saves `ward_summary_green_shar
 ## Files
 
 - `ward_summary.py`: the script
+- `requirements.txt`: libraries needed to run it
+- `ward_summary_green_share.png`: the chart the script saves
 - `.gitignore`: files Git should not upload (environments, keys, private data)
 
 ## Author
