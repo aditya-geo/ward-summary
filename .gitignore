@@ -1,0 +1,18 @@
+
+.venv/
+venv/
+__pycache__/
+.idea/
+.ipynb_checkpoints/
+
+# Secrets (never upload these)
+.env
+*.key
+*.pem
+client_secret*.json
+service_account*.json
+credentials*
+
+# Data you shouldn't share
+data/raw/
+data/private/
